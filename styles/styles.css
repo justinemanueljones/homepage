@@ -1,0 +1,128 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0E0F0F;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+/* logo image justin emanuel jones */
+#logo{
+    max-height: 3rem;
+    max-width: 6rem;
+    padding: 0.5rem;
+}
+
+    
+.li{
+    list-style: none;
+
+}
+
+.main{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    line-height: 2.1rem;
+    font-weight: 400;
+    word-spacing: 0px;
+    color: white;  
+    margin-left: 8.5rem ; 
+    margin-right: 20rem ; 
+}
+
+.main1{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.35rem;
+    word-spacing: 0px;
+    color: #317065; 
+    margin-left: 8.5rem ; 
+    margin-right: 20rem ; 
+ }
+
+/* .bottom{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    margin-left: 8.5rem ; 
+    color:  #92b793;
+    
+}
+
+.top{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    bottom: 130px;
+    margin-left: 12rem ;
+    color: white;
+    background-color: transparent;
+} */
+#latestwork{
+   width: 100%;
+}
+
+.top{
+    color:white; 
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 8.5rem ; 
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 80%;
+    text-align: center;
+    line-height: 15rem;
+    border-radius: 4px;
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8.25rem ; 
+    
+  }
+  
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    width: 39.6%;
+    text-align: center;
+    line-height: 8rem;
+    border-radius: 4px;
+    margin: 0.1rem;
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8.25rem ; 
+    
+  }
+  
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    width: 39.6%;
+    text-align: center;
+    line-height: 8rem;
+    border-radius: 4px;
+    margin: 0.1rem;
+  }
