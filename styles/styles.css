@@ -88,7 +88,7 @@ nav{
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: gray;
     width: 80%;
     text-align: center;
     line-height: 15rem;
@@ -103,7 +103,7 @@ nav{
   }
   
   .flex-container1 > div {
-    background-color: #f1f1f1;
+    background-color: gray;
     width: 39.6%;
     text-align: center;
     line-height: 8rem;
@@ -119,10 +119,38 @@ nav{
   }
   
   .flex-container2 > div {
-    background-color: #f1f1f1;
+    background-color: gray;
     width: 39.6%;
     text-align: center;
     line-height: 8rem;
     border-radius: 4px;
     margin: 0.1rem;
+  }
+
+  /* footer */
+.footerh2{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.85rem;
+    margin-left: 8.2rem ; 
+    color:  #92b793;  
+}
+
+  .footerp{
+    color:white; 
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 232%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+  }
+
+  .footernav{
+      display: flex;
+      justify-content: center;  
+  }
+
+  .footernav a{
+      padding: 1rem;
   }
